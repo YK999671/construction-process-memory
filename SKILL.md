@@ -50,3 +50,7 @@ CLI 返回的是证据数据，不是最终回答模板。保留对话上下文�
 ## Obsidian 阅读视图
 
 用户希望在 Obsidian 查看时，运行 [scripts/export_obsidian.py](scripts/export_obsidian.py) `--vault Obsidian库路径 --save-vault [--project 项目名]`。首次成功导出后保存库路径；后续只需运行脚本（多项目时仍指定 `--project`）。它从 SQLite 单向生成项目总览、月份页、日期页、照片页、已确认精确部位页、缩略图、Bases 表格及固定排版的 `施工进度导航.canvas`。图谱链接按项目→月份→日期→照片组织，已确认部位另连相应照片；总览不直接连接全部照片，避免放射状拥挤。需要一眼看清关系时优先打开 Canvas，Obsidian 全库图谱用于自由探索。导出目录独立于库内已有笔记；若同名文件不是本脚本生成，会拒绝覆盖。用户个人笔记写在生成目录外。照片的项目范围、精确部位、日期和施工观察分别按数据库状态展示，不因图谱需要而补造关系。每次完成新的照片分析或用户修正后重新导出；数据库和原图仍是主记录。
+
+## 官方来源与许可
+
+[官方仓库](https://github.com/YK999671/construction-process-memory) · [使用与分发条款](LICENSE) · [既有 MIT 内容的许可](LICENSE-MIT)

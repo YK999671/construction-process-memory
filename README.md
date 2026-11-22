@@ -47,6 +47,8 @@ This repository contains code and workflow instructions only. Never commit real 
 
 本仓库仅公开代码与流程规则。实际项目照片、图纸、数据库、配置和审核导出资料不在仓库内；照片可见形态不等于验收完成。
 
-## License
+## 使用与分发许可
 
-MIT. See [LICENSE](LICENSE).
+允许免费安装、内部调整、用于收费项目及交付项目成果。免费分享修改版时须标明修改情况并保留声明。未经书面许可，不得出售本许可涵盖的 Skill 或修改版，也不得将其捆绑在付费产品中交付。 完整条款见 [LICENSE](LICENSE)。
+
+[此前按 MIT 发布的内容](https://github.com/YK999671/construction-process-memory/tree/904bf28bba2421fefa88baafd194f5b76d44b102)继续遵循 [MIT 原文](LICENSE-MIT)。新版限制仅适用于授权更新后的新增原创部分。
